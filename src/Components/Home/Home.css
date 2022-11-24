@@ -1,0 +1,148 @@
+.home {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.over {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #141414;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    mix-blend-mode: hard-light;
+}
+
+video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    object-fit: cover;
+}
+
+.homebox {
+    width: 100%;
+    max-width: 450px;
+    height: max-content;
+    padding: 8rem 1.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    row-gap: 2.5rem;
+    justify-content: center;
+    color: #fff;
+    z-index: 100;
+}
+
+.textbox {
+    padding: 2rem 1rem;
+}
+
+.small {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.home-title {
+    position: relative;
+    font-size: 1.8rem;
+}
+
+.card {
+    display: grid;
+    align-items: center;
+    position: relative;
+    padding: 2rem 1rem;
+    border-radius: 12px;
+    gap: 1rem;
+}
+
+label {
+    font-size: 1.1rem;
+    margin: 0.3rem 0;
+}
+
+.inputbox {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 3px;
+}
+
+.city {
+    display: flex;
+    align-items: center;
+}
+
+.input-city , .input-date , .input-price {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3rem;
+}
+
+input {
+    color: #141414;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    font-size: 0.9rem;
+}
+
+input::placeholder {
+    font-size: 13px;
+    color: #141414;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price {
+    font-size: 1.2rem;
+}
+
+.option {
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: max-content;
+    background: transparent;
+    left: 50%;
+    bottom: 0.4rem;
+    background: skyblue;
+    transform: translate(-50%);
+    border: 1px solid #ccc;
+    border-radius: 9px;
+    gap: 0.5rem;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.option span , .icon{
+    font-size: 0.9rem;
+}
+
+.homeIcon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homeIcon .icon {
+    font-size: 20px;
+    margin: 0 5px;
+    color: #fff;
+    font-weight: 600;
+}
