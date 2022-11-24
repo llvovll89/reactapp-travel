@@ -15,7 +15,7 @@ export const Home = () => {
   return (
     <section className="home">
       <div className="over"></div>
-      <video src={video} type="video/mp4" muted autoPlay loop></video>
+      <video src={video} type="video/mp4" muted autoPlay loop controls="off"></video>
 
       <div className="homebox container">
         <div className="textbox">
