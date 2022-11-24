@@ -12,20 +12,25 @@
     height: 100%;
     width: 100%;
     background: #141414;
+    mix-blend-mode: hard-light;
     top: 0;
     bottom: 0;
     z-index: 1;
-    mix-blend-mode: hard-light;
+    background: url('../../assets/videos/videogif.gif') no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.3;
 }
 
-video {
+/* video {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     bottom: 0;
     object-fit: cover;
-}
+} */
 
 .homebox {
     width: 100%;

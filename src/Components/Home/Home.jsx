@@ -9,15 +9,15 @@ import {
   FaHtml5,
   FaInstagram,
 } from 'react-icons/fa';
-import video from '../../assets/videos/video.mp4';
+// import video from '../../assets/videos/video.mp4';
 
 export const Home = () => {
   return (
     <section className="home">
       <div className="over"></div>
-      <video src={video} type="video/mp4" muted autoPlay loop controls="off"></video>
-
-      <div className="homebox container">
+    {/*  <video src={imgGif} type="video/mp4" muted loop controls="off"></video>
+  */}
+  <div className="homebox container">
         <div className="textbox">
           <span className="small">Our Packages</span>
           <p className="home-title">Search Your Shoose</p>
